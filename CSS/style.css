@@ -615,3 +615,122 @@ body {
         gap: 18px;
     }
 }
+
+.article--devs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--devs-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.section--devs-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--devs-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.aside--devs-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 520px;
+}
+
+.devs--linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 24px;
+    background: #F8F8F8;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.devs--nome {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.devs--saiba-mais {
+    background: #0D87D0;
+    color: #fff;
+    border: 1px solid #0D87D0;
+    border-radius: 6px;
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.devs--saiba-mais:hover {
+    background: #fff;
+    color: #0D87D0;
+}
+
+.devs--modal-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.devs--modal {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    width: 90%;
+    max-width: 420px;
+    position: relative;
+    animation: modalFadeIn 0.3s;
+}
+
+.devs--modal-fechar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 2rem;
+    color: #0D87D0;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.devs--botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
