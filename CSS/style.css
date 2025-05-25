@@ -1,8 +1,74 @@
-* {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #e7e7e7;
     min-height: 100vh;
     box-sizing: border-box;
+}
+
+
+/* Header - Estilo do cabeçalho institucional */
+.header--instituto {
+    background-color: #f5f5f5;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #ccc;
+}
+
+.nav--instituto {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header--logo {
+    max-height: 80px;
+    width: auto;
+}
+
+.header--titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.header--instituto-nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.header--instituto-reabilitacao {
+    color: #0072ce;
+}
+
+.header--instituto-sub {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Main - conteúdo principal (reserva de espaço futura) */
+.main--conteudo {
+    min-height: 60vh;
+    padding: 2rem;
+}
+
+/* Footer - rodapé institucional */
+.footer--instituto {
+    background-color: #f5f5f5;
+    border-top: 2px solid #ccc;
+    padding: 1rem 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #444;
+}
+
+.footer--privacidade {
+    color: #0072ce;
+    text-decoration: none;
+}
+
+.footer--privacidade:hover {
+    text-decoration: underline;
 }
