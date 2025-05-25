@@ -273,3 +273,99 @@ body {
     width: 320px;
     min-width: 220px;
 }
+
+.article--consultas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--consultas-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.section--consultas-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--consultas-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.aside--consultas-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.consultas--retangulo {
+    background: #F8F8F8;
+    border: 1px solid #D9D9D9;  
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 32px 0 24px 0;
+    min-width: 500px;
+    max-width: 700px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultas--titulo-consulta {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.consultas--hora {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.consultas--link-label {
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.consultas--link {
+    color: #e53935;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+.consultas--botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.consultas--botoes .button--voltar,
+.consultas--botoes .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
