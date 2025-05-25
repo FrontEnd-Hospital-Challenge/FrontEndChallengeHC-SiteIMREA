@@ -29,6 +29,7 @@ const devsData = {
 
 // Função para abrir o modal
 
+
 function abrirModalDev(devKey) {
     const dev = devsData[devKey];
     if (!dev) return;
