@@ -536,3 +536,82 @@ body {
     width: 320px;
     min-width: 220px;
 }
+
+.article--faq-pergunta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--faq-pergunta-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.section--faq-pergunta-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--faq-pergunta-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.aside--faq-pergunta-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.faq--textarea {
+    width: 600px;
+    max-width: 98vw;
+    min-height: 140px;
+    max-height: 220px;
+    padding: 16px 18px;
+    font-size: 1.12rem;
+    border-radius: 8px;
+    border: 1.5px solid #d9d9d9;
+    background: #fafafa;
+    resize: none;
+    overflow-y: auto;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.faq--botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.faq--botoes .button--voltar,
+.faq--botoes .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
+
+@media (max-width: 600px) {
+    .faq--textarea {
+        width: 98vw;
+        min-width: 0;
+        max-width: 100vw;
+    }
+    .faq--botoes {
+        flex-direction: column;
+        gap: 18px;
+    }
+}
