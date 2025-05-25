@@ -37,22 +37,39 @@ No geral, trabalhamos juntos, em todos os momentos!
 
 ## 📂 Estrutura do Projeto
 teleconsultas-hc-fmusp/
+
 ├── CSS/ # Estilos responsivos
+
 │ └── style.css
+
 ├── IMG/ # Assets visuais
+
 │ └── logo-imrea.png
+
 ├── JS/ # Lógica da aplicação
+
 │ ├── script.js # Funções globais
+
 │ ├── script-agenda.js # Controle de agendamentos
+
 │ └── script-cadastro.js # Validações de formulário
+
 ├── index.html # Página inicial
+
 ├── cadastro.html # Fluxo de cadastro
+
 ├── menu.html # Navegação principal
+
 ├── consultas.html # Gerenciamento de consultas
+
 ├── agendamento.html # Agendamento online
+
 ├── faq.html # Perguntas frequentes
+
 ├── faq-pergunta.html # Envio de dúvidas
+
 ├── desenvolvedores.html # Sobre a equipe
+
 └── contatos.html # Canais de comunicação
 
 ## 🌐 Repositório
