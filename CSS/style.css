@@ -369,3 +369,96 @@ body {
     width: 320px;
     min-width: 220px;
 }
+
+.article--agenda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--agenda-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.section--agenda-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--agenda-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.agenda--container-lista {
+    width: 700px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0 auto 32px auto;
+}
+
+.agenda--linha {
+    background: #F8F8F8;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 0 24px;
+    min-width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.agenda--medico {
+    flex: 2;
+    text-align: left;
+    font-weight: 700;
+}
+
+.agenda--data-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.agenda--data {
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.agenda--botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.agenda--botoes .button--voltar {
+    width: 320px;
+    min-width: 220px;
+}
+
+.article--agenda .button--cadastro {
+    padding: 8px 32px;
+    height: 36px;
+    font-size: 1.08rem;
+    min-width: 120px;
+    width: auto;
+    align-self: flex-end;
+    box-sizing: border-box;
+}
