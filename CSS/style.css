@@ -1,0 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7e7e7;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
