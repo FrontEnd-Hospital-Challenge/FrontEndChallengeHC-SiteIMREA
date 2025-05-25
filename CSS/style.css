@@ -462,3 +462,77 @@ body {
     align-self: flex-end;
     box-sizing: border-box;
 }
+
+.article--faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--faq-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.section--faq-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--faq-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.aside--faq-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 32px;
+}
+
+.faq--retangulo {
+    background-color: #F8F8F8;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    width: 700px;
+    max-width: 90vw;
+}
+
+.faq--retangulo strong {
+    font-size: 1.15rem;
+    color: #222;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.faq--retangulo p {
+    font-size: 1rem;
+    color: #444;
+    margin: 0;
+}
+
+.faq--botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.faq--botoes .button--voltar,
+.faq--botoes .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
